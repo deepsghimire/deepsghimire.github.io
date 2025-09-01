@@ -7,7 +7,13 @@ HUGO_PUBLIC=public
 
 # Run local dev server
 serve:
-	hugo server -s $(HUGO_SRC) -D --bind 0.0.0.0
+	hugo server -s $(HUGO_SRC)\
+		-D \
+		--bind 0.0.0.0 \
+		--port 1313 \
+		--printPathWarnings \
+		--disableFastRender \
+		--baseURL "http://$$(hostname -f|awk '{print $$1}'):1313/"
 
 # Build production site
 build:

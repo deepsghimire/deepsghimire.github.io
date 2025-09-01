@@ -1,0 +1,39 @@
+baseURL: "ghimiresandeep.com.np"
+languageCode: "en-us"
+title: "Sandeep Ghimire"
+theme: "PaperMod"
+
+params:
+  author: "Sandeep Ghimire"
+  homeInfo: true
+  defaultTheme: "auto"
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowShareButtons: false
+
+  homeInfoParams:
+    Title: "Hi! I'm Sandeep Ghimire"
+    Content: "I build scalable backend systems, design distributed services, and contribute to open-source projects."
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/deepsghimire"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/sandeep-ghimire-309169239/"
+
+
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Blog"
+      url: "/posts/"
+      weight: 2
+    - name: "Projects"
+      url: "/projects/"
+      weight: 3
+
