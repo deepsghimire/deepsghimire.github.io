@@ -1,4 +1,4 @@
-baseURL: "ghimiresandeep.com.np"
+baseURL: "https://ghimiresandeep.com.np/"
 languageCode: "en-us"
 title: "Sandeep Ghimire"
 theme: "PaperMod"
@@ -14,8 +14,9 @@ params:
   ShowShareButtons: false
 
   homeInfoParams:
-    Title: "Hi! I'm Sandeep Ghimire"
-    Content: "I build scalable backend systems, design distributed services, and contribute to open-source projects."
+    Title: "Hi! I'm Sandeep"
+    Content: "I build backend systems and occasionally contribute to open-source projects. \
+     I am interested in programming languages, mathematics and software engineering."
 
   socialIcons:
     - name: "github"
